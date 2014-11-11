@@ -53,7 +53,7 @@ public:
 int main() {
     Students std;
     Ecommerce ecommerce;
-    std=Ecommerce.SetMarks(std);// im experiencing an error here
+    std=ecommerce.SetMarks(std);// im experiencing an error here
     
     cout<<"****************Student Ecommerce Marks****************"<<endl;
     cout << "E-Commerce Assignment 1..."<<std.getEcomA1()<<endl;
