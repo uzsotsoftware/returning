@@ -54,6 +54,7 @@ int main() {
     Students std;
     Ecommerce ecommerce;
     std=ecommerce.SetMarks(std);// im experiencing an error here
+    //I dont see any problem with this - S H Kembo
     
     cout<<"****************Student Ecommerce Marks****************"<<endl;
     cout << "E-Commerce Assignment 1..."<<std.getEcomA1()<<endl;
